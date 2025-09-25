@@ -1,1 +1,1 @@
-NOME_APP = "Monitor Climatico INPE"
+NOME_APP = "Monitor Climatico INPE (correção teste)"
