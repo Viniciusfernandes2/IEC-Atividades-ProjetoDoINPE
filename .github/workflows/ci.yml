@@ -17,23 +17,16 @@ jobs:
       - name: Listar arquivos na raiz
         run: ls -la
 
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Remover node_modules (se existir)
+        run: rm -rf node_modules || true
 
       - name: Instalar dependências
         run: npm install
 
-      - name: Rodar ESLint
-        run: npx eslint .
-
-      - name: Limpar cache do npm
-        run: npm cache clean --force
-
-      - name: Instalar dependências
-        run: npm install
+      - name: Dar permissão no eslint
+        run: chmod +x ./node_modules/.bin/eslint
 
       - name: Rodar ESLint
         run: ./node_modules/.bin/eslint .
+
 
