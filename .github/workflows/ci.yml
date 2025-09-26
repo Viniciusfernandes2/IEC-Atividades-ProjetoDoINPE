@@ -28,3 +28,12 @@ jobs:
       - name: Rodar ESLint
         run: npx eslint .
 
+      - name: Limpar cache do npm
+        run: npm cache clean --force
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar ESLint
+        run: ./node_modules/.bin/eslint .
+
