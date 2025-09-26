@@ -14,6 +14,9 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
+      - name: Listar arquivos na raiz
+        run: ls -la
+
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
