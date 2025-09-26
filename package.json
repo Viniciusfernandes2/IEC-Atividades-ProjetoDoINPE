@@ -1,0 +1,19 @@
+{
+  "name": "iec-atividades-projetodoinpe",
+  "version": "1.0.0",
+  "description": "- Lista 1 (feito)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "prettier": "^3.6.2"
+  }
+}
