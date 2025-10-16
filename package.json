@@ -1,0 +1,8 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}

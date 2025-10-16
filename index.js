@@ -1,1 +1,1 @@
-console.log("Projeto Monitor Climático INPE iniciado") 
+console.log("Aplicativo de Monitoramento de Eventos Climáticos - INPE");
