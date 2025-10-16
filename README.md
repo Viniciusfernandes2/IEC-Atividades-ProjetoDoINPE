@@ -5,3 +5,5 @@
 - Aula 3 (feito)
 - Aula 4 (feito)
 - Aula 5 (feito)
+- Aula 6 (feito)
+- 
